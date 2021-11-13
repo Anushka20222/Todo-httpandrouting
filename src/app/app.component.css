@@ -1,0 +1,26 @@
+.buttons{
+  text-align: center;
+
+}
+
+.button1{
+  font-size: 36px;
+  display: inline-block;
+  border:solid 1px;
+  margin-top: 10%;
+  background-color: #a8dadc;
+}
+.button2{
+  font-size: 36px;
+  display: inline-block;
+  border: solid 1px;
+  margin-top: 10%;
+  background-color: #a8dadc;
+}
+.button3{
+  font-size: 36px;
+  display: inline-block;
+  border: solid 1px;
+  margin-top: 10%;
+  background-color: #a8dadc;
+}

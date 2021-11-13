@@ -1,0 +1,14 @@
+<h3>Todo details</h3>
+<table border="2px">
+  <tr>
+    <td>Description</td>
+    <td>Due Date</td>
+    <td>Created</td>
+  </tr>
+  <tr *ngFor="let item of tododetails">
+    <td>{{item.Description}}</td>
+    <td>{{item.due_date}}</td>
+    <td>{{item.created}}</td>
+
+  </tr>
+</table>

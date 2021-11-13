@@ -1,0 +1,25 @@
+<div style="text-align: center;">
+  <h1>Table for SpaceX</h1>
+  <table border="1px">
+    <tr>
+      <th>Mission id</th>
+      <th>Mission name</th>
+      <th>Manufacturers</th>
+      <th>Payload id</th>
+      <th>Twitter</th>
+      <th>Website</th>
+      <th>Wikipedia</th>
+
+    </tr>
+    <tr *ngFor="let user of data ">
+      <td>{{user.mission_id}}</td>
+      <td>{{user.mission_name}}</td>
+      <td>{{user.manufacturers}}</td>
+      <td>{{user.payload_ids}}</td>
+      <td>{{user.twitter}}</td>
+      <td>{{user.website}}</td>
+      <td>{{user.wikipedia}}</td>
+    </tr>
+  </table>
+
+</div>
